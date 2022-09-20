@@ -1,0 +1,85 @@
+[
+  {
+    "path": "assets/Cookie-PNG-File.png",
+    "name": "Cookies",
+    "price": 150,
+    "amount": "1kg pkt",
+    "Product_id": 1,
+    "quantity": 1,
+    "hallmark": "veg",
+    "ingredient": "225g Butter-Softened, 110g caster sugar, 275g plain flour, cinnamon and other spices , 75g chocolate chip",
+    "nutrition_value": {
+      "fat": "8g",
+      "protein": "1g",
+      "energy": "13%",
+      "kcal": "125"
+    },
+    "catchPhrase": "“Cookies in the morning, and cookies late at night. Cookies all day, here take another bite!”",
+    "thumb": [
+      "assets/Cookie-PNG-File.png",
+      "assets/cookie-box.png",
+      "assets/single-cookie.png"
+    ]
+  },
+  {
+    "path": "assets/chocolate-coffee.png",
+    "name": "chocolate Cold Coffee",
+    "price": 250,
+    "amount": "500ml",
+    "Product_id": 2,
+    "quantity": 1,
+    "hallmark": "veg",
+    "ingredient": "instant coffee 1.5 tablespoons, ¼ cup Water, 4 tablespoons sugar, milk, 2 vanilla ice cream scoops vanilla ice Cream, ice",
+    "nutrition_value": {
+      "fat": "8g",
+      "protein": "7.2g",
+      "energy": "265 cal",
+      "kcal": "125"
+    },
+    "catchPhrase": "“That’s a really sweet service you're providing, my fellow iced coffee lover. It’s about time that you put your phone down, sipped on your drink, and let someone help you out instead.”",
+    "thumb": [
+      "assets/chocolate-coffee.png",
+      "assets/cold_brew_logo_iced_coffee_brewed_coffee_coffee_d6c8ef0f091db8d.png"
+    ]
+  },
+  {
+    "path": "assets/oreo-cake.png",
+    "name": "Oreo Cake",
+    "price": 300,
+    "amount": "80g",
+    "Product_id": 3,
+    "quantity": 1,
+    "hallmark": "non-veg",
+    "ingredient": "12 Oreo cookies , 1 teaspoon powdered sugar, 1/2 teaspoon baking powder, 1 cup milk, 4 eggs",
+    "nutrition_value": {
+      "fat": " 22g",
+      "protein": "1g",
+      "energy": "130 cal",
+      "kcal": "335.6"
+    },
+    "catchPhrase": "“Decided that any type of Oreo that is not double stuffed is not worth my time.”",
+    "thumb": ["assets/oreo-cake.png", "assets/cake-slice.png"]
+  },
+  {
+    "path": "assets/chocolate-strawberry-cake.png",
+    "name": "Strawberry & Black Current Pastries",
+    "price": 200,
+    "amount": "50g",
+    "Product_id": 4,
+    "quantity": 1,
+    "hallmark": "non-veg",
+    "ingredient": "2 cups unsalted butter, softened, ⅔ cup all-purpose flour, 8 cups all-purpose flour, divided, 4 ½ teaspoons active dry yeast, ½ cups milk, ½ cup white sugar, 2 teaspoons salt, 2 large eggs, 1 teaspoon lemon extract, 1 teaspoon almond extract, 2 cups fruit preserves, any flavor, 1 large egg white, beaten, Strawberry, blackcurrant.",
+    "nutrition_value": {
+      "fat": " 38g",
+      "protein": "7g",
+      "energy": "130 cal",
+      "kcal": "551.6"
+    },
+    "catchPhrase": "“You can handle ANYthing as long as you take it one cake at a time.”",
+    "thumb": [
+      "assets/chocolate-strawberry-cake.png",
+      "assets/berries.png",
+      "assets/cake-box.png"
+    ]
+  }
+]
