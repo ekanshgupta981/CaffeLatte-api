@@ -16,7 +16,7 @@ app.use("/api", apiRouter);
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
-    app.listen(process.env.PORT, function () {
+    app.listen(process.env.PORT || 4000, function () {
       console.log("Database connected");
       console.log("your server is running on localhost//:", process.env.PORT);
     });
