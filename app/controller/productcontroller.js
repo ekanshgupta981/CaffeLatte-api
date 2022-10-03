@@ -49,5 +49,24 @@ const productController = {
       });
     }
   },
+
+  filterProduct: async (req, res) => {
+    let { hallmarks, lcost, hcost, categories, sort } = req.body;
+    sort = sort ? sort : 1;
+    let filterObject = {};
+    if (hallmarks) filterObject["hallmark"] = hallmarks;
+    if (categories) filterObject["category"] = categories;
+    if (lcost && hcost) filterObject["price"] = { $gte: lcost, $lte: hcost };
+
+    try {
+      let result = await ProductModel.find(filterObject).sort({
+        price: sort,
+      });
+      res.status(200).send({
+        status: true,
+        result: result,
+      });
+    } catch (error) {}
+  },
 };
 module.exports = productController;

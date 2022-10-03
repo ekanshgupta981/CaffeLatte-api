@@ -23,7 +23,7 @@
   },
   {
     "path": "assets/chocolate-coffee.png",
-    "name": "chocolate Cold Coffee",
+    "name": "Chocolate Cold Coffee",
     "price": 250,
     "amount": "500ml",
     "Product_id": 2,
@@ -58,13 +58,13 @@
       "kcal": "335.6"
     },
     "catchPhrase": "“Decided that any type of Oreo that is not double stuffed is not worth my time.”",
-    "thumb": ["assets/oreo-cake.png", "assets/cake-slice.png"]
+    "thumb": ["assets/oreo-cake.png"]
   },
   {
     "path": "assets/chocolate-strawberry-cake.png",
     "name": "Strawberry & Black Current Pastries",
     "price": 200,
-    "amount": "50g",
+    "amount": "500g",
     "Product_id": 4,
     "quantity": 1,
     "hallmark": "non-veg",
@@ -81,5 +81,59 @@
       "assets/berries.png",
       "assets/cake-box.png"
     ]
+  },
+  {
+    "path": "assets/garlic-bread.png",
+    "name": "Garlic Bread",
+    "price": 200,
+    "amount": "250g",
+    "Product_id": 5,
+    "quantity": 1,
+    "hallmark": "veg",
+    "ingredient": "½ cup butter, 1 ½ tablespoons garlic powder, 1 tablespoon dried parsley, 1 (1 pound) loaf Italian bread, cut into 1/2 inch slices, 1 (8 ounce) package shredded mozzarella cheese.",
+    "nutrition_value": {
+      "fat": " 38g",
+      "protein": "7g",
+      "energy": "100 cal",
+      "kcal": "1.6"
+    },
+    "catchPhrase": "“Do not worry about Smell I am Testy.”",
+    "thumb": ["assets/garlic-bread.png", "assets/garlic-bread-pkt.png"]
+  },
+  {
+    "path": "assets/lemon-tea.png",
+    "name": "Lemon tea",
+    "price": 75,
+    "amount": "50ml",
+    "Product_id": 6,
+    "quantity": 1,
+    "hallmark": "veg",
+    "ingredient": "Tea leaves, lemon juice and honey.",
+    "nutrition_value": {
+      "fat": " 0.1g",
+      "protein": "0.16g",
+      "energy": "100 cal",
+      "kcal": "10.3"
+    },
+    "catchPhrase": "“Drink healthy Stay healthy.”",
+    "thumb": ["assets/lemon-tea.png", "assets/lemon.png"]
+  },
+  {
+    "path": "assets/sandwich.png",
+    "name": "Veg Sandwich",
+    "price": 75,
+    "amount": "1 Sandwich",
+    "Product_id": 7,
+    "quantity": 1,
+    "hallmark": "veg",
+    "ingredient": "Cabbage, Cheese, Tomato, bread, onion.",
+    "nutrition_value": {
+      "fat": " 5g",
+      "protein": "0.16g",
+      "energy": "100 cal",
+      "kcal": "10.3"
+    },
+    "catchPhrase": "“Hungry for little Snacks why not order Juicy Sandwich.”",
+    "thumb": ["assets/sandwich.png", "assets/sandwich-slice.png"]
   }
 ]
